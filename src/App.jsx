@@ -5,6 +5,7 @@ import Products from './component/Products'
 import AOS from "aos";
 import 'aos/dist/aos.css'
 import TopProduct from './component/TopProduct';
+import Banner from './component/Banner';
 const App = () => {
   useEffect(()=>{
     AOS.init({
@@ -21,6 +22,7 @@ const App = () => {
       <Hero/>
       <Products/>
       <TopProduct/>
+      <Banner/>
     </div>
   )
 }
